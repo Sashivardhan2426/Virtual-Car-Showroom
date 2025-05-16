@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Task 7.2</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            row-gap: 15px;
+        }
+
+        .header {
+            grid-column: 1/span 6;
+            background-color: rgb(153, 106, 59);
+            color: black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .nav {
+            grid-column: 1/span 6;
+            background-color: pink;
+            display: block;
+        }
+
+        .nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .article{
+            grid-column: 1/span 3;
+            background-color: rgb(162, 22, 143);
+        }
+        .aside {
+            grid-column: 4/span 3;
+            background-color: gray;
+        }
+        .footer {
+            grid-column: 1/span 6;
+            background-color: rgb(153, 106, 59);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <h1>Layout using Grid</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Menu</a></li>
+            </ul>
+        </div>
+        <div class="article">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, ab. 
+            Ullam, fugit tempore inventore amet expedita aliquid molestiae explicabo molestias dicta, 
+            cum qui similique repellat autem neque nemo quisquam, impedit error aliquam veritatis libero nulla in exercitationem 
+            quo doloremque? Fugit cum a ut soluta vitae pariatur commodi ex optio nostrum laborum in, nam praesentium omnis et temporibus 
+            repellendus aperiam necessitatibus voluptatibus eum non quae. Consectetur deserunt, veniam ad excepturi aliquam ratione odio 
+            doloremque vero fugiat reprehenderit, numquam eos necessitatibus dignissimos. Cupiditate, et repudiandae quas sed debitis nam 
+            eum fuga laborum voluptate unde corrupti sit porro temporibus dicta quidem magni maxime!
+        </div>
+        <div class="aside">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae facere ratione voluptatibus 
+            laudantium corporis et. Beatae impedit quae quibusdam odit dolorum molestias excepturi ipsum quas 
+            quos esse animi dolores similique, eius explicabo tempore inventore nemo? Laboriosam aspernatur ut
+             ad hic iste error, ratione doloremque nisi corporis, aliquid aut sunt nostrum veniam perferendis quod 
+             corrupti sit qui dolor voluptate saepe natus non eveniet explicabo? Quibusdam ex modi accusamus at perspiciatis 
+             natus repellat iure nesciunt, nam odio. Iure, voluptate? Eum pariatur labore adipisci quis nostrum quos perspiciatis 
+             perferendis porro nulla quaerat a, esse impedit error, consectetur necessitatibus aliquid officiis quasi doloribus in!
+        </div>
+        <div class="footer"><h1>Footer</h1></div>
+    </div>
+</body>
+
+</html>

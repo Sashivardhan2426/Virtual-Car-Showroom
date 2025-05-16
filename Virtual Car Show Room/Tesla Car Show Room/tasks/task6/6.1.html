@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Task 6.1</title>
+    <style>
+        header, .header {
+            background-color: rgb(117, 16, 108);
+            color: black;
+            text-align: center;
+            padding:6px;
+        }
+
+        nav {
+            background-color: pink;
+            display: block;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 10px;
+            display:flex;
+            justify-content: space-around;
+        }
+        article{
+            float:left;
+            background-color: rgb(207, 133, 13);
+            width:50%;
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        aside {
+            background-color: rgb(233, 245, 12);
+            float:right;
+            width:50%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Layout using Float</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Menu</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed recusandae doloribus suscipit repellendus omnis ipsum fugit laborum adipisci cupiditate, ab voluptatum eligendi ratione rem, 
+            alias cumque excepturi id exercitationem molestiae, at tempora facilis? Voluptate quisquam omnis dignissimos quibusdam rerum beatae odit,
+             id perspiciatis est amet quasi ipsa iusto rem exercitationem quis quia natus quidem labore sint in, nobis optio! Molestiae tenetur fugit omnis nobis repellendus 
+             temporibus iure iusto consectetur aperiam cumque, amet iste eligendi quos. Rerum saepe facere itaque asperiores. Fugiat dignissimos, deserunt consequuntur atque velit cupiditate cum 
+             iste expedita iusto nulla, tempore recusandae et. Eius nulla animi ut ab?</article>
+        <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, inventore enim officia eum suscipit facilis culpa et dolorem deserunt, cumque sunt natus vero nihil.
+             Alias voluptatibus, perspiciatis sed molestias, eaque beatae consequuntur quo consectetur ab inventore voluptates unde, 
+             ipsa nihil placeat est? Ut doloribus earum accusamus omnis sequi unde! Consequatur, praesentium repellendus? 
+             Inventore, voluptatibus! Nostrum id velit cumque sed temporibus amet facere consequatur repudiandae accusamus aut. 
+             Animi esse aut itaque tempora possimus illo atque vel molestias repudiandae, ipsam, quod necessitatibus error, 
+             tempore aliquid reprehenderit illum earum nobis rerum eius. Eum quae aliquid in natus consectetur exercitationem, id incidunt vel ad!</aside>
+    </section>
+    <div class="header">
+        <h1>hello guys</h1>
+    </div>
+</body>
+
+</html>
