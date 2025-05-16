@@ -1,6 +1,6 @@
 Tesla Car Showroom
 
-Welcome to the Tesla Car Showroom!
+
 This showroom is dedicated to providing a unique and immersive experience for customers interested in Tesla vehicles. Here, you can explore various models, learn about the latest technology, and even take a test drive.
 Our goal is to help you find the perfect Tesla vehicle that fits your lifestyle.
 
