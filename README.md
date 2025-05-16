@@ -17,7 +17,7 @@ Schedule a test drive to experience the performance and innovation of Tesla vehi
 Virtual Reality (VR) Experience
 Engage in a VR simulation that lets you explore different Tesla models from the driver’s seat.
 
-Charging Solutions**
+Charging Solutions
 Learn about Tesla’s charging options including home charging stations and the Supercharger network.
 
 Merchandise Store
